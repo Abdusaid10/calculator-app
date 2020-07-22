@@ -5,13 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 700px;
-  margin: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  padding-top: 25px;
+}
+.display {
+  display: flex;
+  height: 100px;
+  background-color: grey;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.display h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  align-self: center;
 }
 
 .btn-panel-container {
