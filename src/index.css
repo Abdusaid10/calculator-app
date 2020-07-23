@@ -71,13 +71,4 @@ code {
   border-bottom: 3px solid rgb(198, 200, 206);
   align-items: center;
 }
-/* .group1 > *,
-.group2 > *,
-.group3 > *,
-.group4 > *,
-.group5 > * {
-  display: flex;
-  font-size: 25px;
-  align-items: center;
-  justify-content: center;
-} */
+
