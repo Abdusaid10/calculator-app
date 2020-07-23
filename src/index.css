@@ -13,8 +13,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 700px;
-  margin: auto;
 }
 
 code {
@@ -27,11 +25,41 @@ code {
     monospace;
 }
 
+.container {
+  width: 700px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.display {
+  display: flex;
+  background-color: gray;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.display,
+.group1,
+.group2,
+.group3,
+.group4,
+.group5 {
+  height: 100px;
+}
+
+.display h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  align-self: center;
+}
+
 .btn-panel-container {
   display: flex;
   flex-direction: column;
   margin: auto;
   justify-content: center;
+  background-color: rgb(207, 210, 214);
 }
 
 .group1,
@@ -41,5 +69,7 @@ code {
 .group5 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  border-bottom: 3px solid rgb(198, 200, 206);
+  align-items: center;
 }
