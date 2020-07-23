@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = ({ result }) => (<h2>{result}</h2>);
+const Display = ({ result }) => (<div className="display"><h2>{result}</h2></div>);
 
 Display.propTypes = {
   // eslint-disable-next-line react/require-default-props
