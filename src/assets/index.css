@@ -36,6 +36,10 @@ code {
   background-color: gray;
   justify-content: flex-end;
   padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  align-self: center;
 }
 
 .display,
@@ -45,13 +49,6 @@ code {
 .group4,
 .group5 {
   height: 100px;
-}
-
-.display h2 {
-  color: white;
-  font-weight: bold;
-  font-size: 50px;
-  align-self: center;
 }
 
 .btn-panel-container {

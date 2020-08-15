@@ -1,7 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Calculator App 
 Calculator app built with React for the Math-magicians Inc
+
+<img src="./src/assets/calc.png">
 
 ## Tools used
 * Node.js
@@ -12,6 +12,25 @@ Calculator app built with React for the Math-magicians Inc
 * CSS
 * ES6
 
+## Run Locally
+To get a local copy up and running follow these simple example steps.
+
+```bash
+git clone https://github.com/Abdusaid10/calculator-app
+cd calculator-app
+```
+> Install dependencies
+```bash
+npm install
+```
+> Build project
+```bash
+npm build
+```
+> Run Locally
+```bash
+npm start
+```
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -29,7 +48,14 @@ The build is minified and the filenames include the hashes.<br />
 
 
 
-### Deployment
+## Author
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+-[Abdusaid Abdurasulov](https://github.com/Abdusaid10)
 
+## Contributing
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the issues page.
+
+## License
+This project is [MIT](https://github.com/Abdusaid10/calculator-app/blob/master/LICENSE) licensed.
